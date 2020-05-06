@@ -1,0 +1,17 @@
+server:
+  port: 9014
+
+spring:
+  cloud:
+    inetutils:
+      ignored-interfaces:
+        - ens192
+  datasource:
+    url: jdbc:postgresql://xxx:5432/hnzzrc?allowMultiQueries=true
+    username: xxx
+    password: aB4#xxx{
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://xxx.10:8761/eureka/,http://xxx.11:8761/eureka/

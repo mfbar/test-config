@@ -1,0 +1,17 @@
+server:
+  port: 9014
+
+spring:
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/zzhr_data?allowMultiQueries=true
+    username: zzhr
+    password: zzhr@2020
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    # password: bA6!aD
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
